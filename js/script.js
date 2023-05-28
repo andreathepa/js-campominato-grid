@@ -14,4 +14,7 @@ function createsquare(){
 //Creo l'elemento in HTML che ospiterà la griglia
 const grid = document.getElementById('grid');
 
-
+for(i=1; i<=100; i++){
+    let square = createsquare();
+    square.innerText = i + 1
+}
