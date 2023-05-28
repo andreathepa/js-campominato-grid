@@ -16,11 +16,12 @@ const grid = document.getElementById('grid');
 
 for(i=0; i<=99; i++){
     let square = createsquare();
-    square.innerText = i + 1
+    square.innerText = i + 1;
 
     square.addEventListener('click', function(){
-        this.classList.toogle('clicked;');
-    })
+        this.classList.toggle('clicked');
+        console.log(this)
+    });
 
     grid.append(square)
 }
