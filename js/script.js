@@ -1,7 +1,3 @@
-
-
-//Creare funzione per il singolo quadratino
-
 function createsquare(){
     let square = document.createElement('div');
 
@@ -11,8 +7,10 @@ function createsquare(){
 }
 
 
-//Creo l'elemento in HTML che ospiterà la griglia
-const grid = document.getElementById('grid');
+let butt = document.getElementById('butt')
+
+butt.addEventListener('click', function(){
+    const grid = document.getElementById('grid');
 
 for(i=0; i<=99; i++){
     let square = createsquare();
@@ -25,3 +23,9 @@ for(i=0; i<=99; i++){
 
     grid.append(square)
 }
+
+})
+
+
+
+//Creo l'elemento in HTML che ospiterà la griglia
