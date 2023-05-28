@@ -19,7 +19,8 @@ for(i=0; i<=99; i++){
     square.innerText = i + 1
 
     square.addEventListener('click', function(){
-        thi
+        this.classList.toogle('clicked;');
     })
+
     grid.append(square)
 }
