@@ -11,6 +11,7 @@ let butt = document.getElementById('butt')
 
 butt.addEventListener('click', function(){
     const grid = document.getElementById('grid');
+    grid.innerHTML = '';
 
 for(i=0; i<=99; i++){
     let square = createsquare();
