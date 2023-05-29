@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+#container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.padding{
+    padding: 6px;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 101px;
+
+}
+
+main{
+    background-color: #005dd6;
+}
+
+header, footer{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+}
+
+.clicked{
+    background-color: rgba(107, 188, 226, 0.342);
+}
+
+button{
+    padding: 5px;
+    width: 60px;
+    margin-top: 10px;
+}
